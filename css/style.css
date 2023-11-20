@@ -1,0 +1,130 @@
+
+title{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: oblique;
+
+}
+header{
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    border: 5px;
+    padding: 10px;
+    
+    }
+.logo img{ 
+    width: 88px;
+    height: 70px;   
+ }
+h1{
+background: linear-gradient(rgb(125, 207, 125), rgb(228, 183, 101));
+}
+        
+body{
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(rgb(218, 119, 201), rgb(206, 104, 104)
+        );
+margin: 0; 
+font-size: 16px;
+
+}
+@media (max-width: 1200px ){
+body{
+    flex-direction: column;
+}
+
+
+}
+
+.Navegador{
+    display: flex;
+    justify-content: center;
+    
+    font-family: monospace;
+    font-size: x-large;
+    background-color: rgb(128, 128, 197);
+    padding: 5px;
+    margin: 10px;
+}
+
+
+nav a:hover{
+    color: rgb(123, 187, 19);
+    text-decoration-line: none;
+}
+
+@media (max-width:700px){
+     header{
+        flex-direction: column;
+     }
+      nav{
+       padding: 10px 0px;
+}
+ 
+
+}
+
+
+h3{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: bold;
+font-size: xx-large;
+}
+
+#container-fluid img{
+max-width: 800px;
+margin-left: auto;
+margin-right: auto;   }
+
+#Aniversarios{
+
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
+
+#Cumpleaños{
+
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+
+
+#Box_Sorpresas{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap ;
+}
+
+.Boxs{
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+   font-weight: bold;
+}
+h6{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.Formulario{
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: lightseagreen;
+}
+
+footer{
+    font-style: italic;
+    text-underline-offset: none;
+}
